@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header id="page__header">
+         <nav id="navbar">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav__list">
+                 <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                 </li>
+                 <li class="nav__item">
+                     <a href="#services" class="nav__link">Services</a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+             </ul>
+             <button class="nav__btn" type="button"><a href="#contact">Get in touch</a></button>
+        </nav>
+    </header>
+    <section id="welcome__section">
+        <div class="welcome__section__container">
+            <div class="welcome__section__text">
+                <h1>
+                    Hello! I am a  Web Developer.
+                </h1>
+                <p>
+                    I have a digital design and development studio. I design and develop astonishing websites and mobile apps. 
+                </p>
+                <a href="#projects" class="welcome__btn">See more</a>
+            </div>
+            <div class="welcome__section__image">
+                <img class="primary__image" src="Images/webdeveloper.png" alt="man">
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="reveal">
+        <h2>
+            These are my certifications
+        </h2>
+        <div class="grid__container">
+            <div class="certificate">
+                <a href="https://www.udemy.com/" target="_blank" class="certificate__link">
+                    <img class="certification__image" src="Images/image1.jpg" alt="certificate">
+                    <p class="certificate__title">
+                         Motion Design with Figma: Animations, Motion Graphics
+                    </p>
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="https://www.freecodecamp.org/" target="_blank" class="certificate__link">
+                    <img class="certification__image" src="Images/Image2.jpg" alt="certificate">
+                    <p class="certificate__title">
+                        Responsive Web Design HTML and CSS
+                    </p>
+                </a>
+            </div> 
+            <div class="certificate">
+                <a href="https://www.udemy.com/" target="_blank" class="certificate__link">
+                    <img class="certification__image" src="Images/Image3.jpg" alt="certificate">
+                    <p class="certificate__title">
+                        Complete Webflow Bootcamp 
+                    </p>
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="https://www.freecodecamp.org/" target="_blank" class="certificate__link">
+                    <img class="certification__image" src="Images/image4.jpg" alt="certificate">
+                    <p class="certificate__title">
+                        Front End Development Libraries 
+                    </p>
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="https://www.udemy.com/" target="_blank" class="certificate__link">
+                    <img class="certification__image" src="Images/Image3.jpg" alt="certificate">
+                    <p class="certificate__title">
+                        Javascript Basics 
+                    </p>
+                </a>
+            </div>
+            <div class="certificate">
+                <a href="https://www.udemy.com/" target="_blank" class="certificate__link">
+                    <img class="certification__image" src="Images/image1.jpg" alt="certificate">
+                    <p class="certificate__title">
+                        UX/UI Design
+                    </p>
+                 </a>             
+            </div>
+        </div>
+    </section>
+    <section id="testimonial__section">
+         <div class="testimonial__section__container">
+            <img class="memoji__1" src="Images/Kim.png" alt="memojis">
+            <img class="memoji__2" src="Images/Mattew.png" alt="memojis">
+            <img class="memoji__3" src="Images/Ed.png" alt="memojis">
+            <img class="memoji__4" src="Images/Angela.png" alt="memojis">
+            <div class="testimonial__text">
+                <h2 class="testimonial__title">
+                    Hear What My Clients Have to Say
+                </h2>
+                <blockquote>
+                    <p>
+                      "He helped us through every stage of our startup. We really enjoyed working with him."
+                    </p>
+                 </blockquote>
+                 <cite>-- Kristin Watson</cite>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="reveal">
+        <h2>
+            Services
+        </h2>
+        <div class="services__section__container">
+            <div class="service__card">
+                <img class="icon" src="Images/Icon1.png" alt="icon">
+                <p class="service__title">
+                    User Interface Design
+                </p>
+                <p class="service__description">
+                    I provide you with a stunning user interface design that is accessible to everyone. 
+                </p>
+            </div>
+            <div class="service__card">
+                <img class="icon" src="Images/Icon2.png" alt="icon">
+                <p class="service__title">
+                    User Experience Design
+                </p>
+                <p class="service__description">
+                    I always focuse on delivering the best user experience to your customers. 
+                </p>
+            </div>
+            <div class="service__card">
+                <img class="icon" src="Images/Icon3.png" alt="icon">
+                <p class="service__title">
+                    Application Development
+                </p>
+                <p class="service__description">
+                   I develop high-quality mobile and web applications using the latest technology stack. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact__text">
+            <h2>
+                Do you have any question ?
+            </h2>
+            <p>
+                Let me help you
+            </p>
+        </div>
+        <div class="fields__wrapper">
+            <div class="field__email">
+                <label for="email" class="field"></label>
+                <input type="email" name="email" id="email" class="field__email__textual" placeholder="Enter your email" required="required">
+            </div>
+            <div class="field__submit">
+                <button type="submit" class="field__type__submit">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer__container">
+            <span>© Copyright 2023, Mia</span>
+            <span>Powered by Mia</span>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
